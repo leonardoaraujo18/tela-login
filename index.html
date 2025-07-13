@@ -15,13 +15,13 @@
         <form action="#">
             <div class="caixa-formulario">
 
-                <input type="text" placeholder="Nome de usuário" required>
+                <input type="text" placeholder="Nome de usuário" id="nome">
 
                 <img src="imagem/usuario.png" alt="">
             </div>
             <div class="caixa-formulario">
 
-                <input type="password" placeholder="Senha">
+                <input type="password" placeholder="Senha" id="senha">
 
                 <img src="imagem/password.png" alt="">
             </div>
@@ -32,7 +32,7 @@
                 <a href="#">Esqueci minha senha</a>
             </div>
 
-            <button type="submit">Entrar</button>
+            <button type="submit" onclick="entrar()">Entrar</button>
 
             <div class="link-registro">
                 <p>Não tem conta? 
@@ -42,6 +42,7 @@
 
         </form>
     </div>
-    
+
+    <script src="script.js"></script>
 </body>
 </html>
